@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Elements And Naming</title>
+    </head>
+    <body>
+        <p><mark>التكليف 01</mark></p>
+        <div>
+            <pre>
+                <p>اكتب في تعليق كل Selector ما الذي يعبر عنه</p>
+                /* أي عنصر يحمل الصنف "title" */
+                .title {
+                }
+                
+                /* أي عنصر يحمل الهوية "nav" */
+                #nav {
+                }
+                
+                /* أي عنصر من نوع "div" */
+                div {
+                }
+                
+                /* أي عنصر من نوع "h2" */
+                h2 {
+                }
+            </pre>
+        </div>
+        <hr>
+        <p><mark>التكليف 02</mark></p>
+        <div>
+            <pre>
+                <p>اكتب في تعليق نوع كل Style من التالي</p>
+                &lt;!-- External style sheet --&gt;
+                &lt;link rel="stylesheet" href="css/file.css" /&gt;
+                <br>
+                &lt;!-- Internal style sheet --&gt;
+                &lt;style&gt;
+                p {
+                  color: red;
+                }
+                &lt;/style&gt;
+                <br>
+                &lt;!-- Inline style --&gt;
+                &lt;p style="color: blue;"&gt; Is Our Paragraph&lt;/p&gt;
+            </pre>
+        </div>
+        <hr>
+        <p><mark>التكليف 03</mark></p>
+        <div>
+            <pre>
+                <p>قم بإستدعاء ملف Style خارجي موجود في مجلد بجانب ال index.html بإسم assets وداخله مجلد باسم css وإسم الملف هو master.css</p>
+                &#60;link rel=&#34;stylesheet&#34; href=&#34;assets/css/master.css&#34; /&#62;
+            </pre>
+        </div>
+        <hr>
+        <p><mark>التكليف 04</mark></p>
+        <div>
+            <pre>
+                <p>قم بإستدعاء ملف Style خارجي موجود في مجلد خارج المجلد الموجود فيه ملف ال index.html بإسم source وداخله مجلد بإسم css وإسم الملف هو main.css</p>
+                &lt;link rel=&quot;stylesheet&quot; href=&quot;../source/css/main.css&quot; /&gt;
+            </pre>
+        </div>
+        <hr>
+        <p><mark>التكليف 05</mark></p>
+        <div>
+            <pre>
+                <p>في أسماء ال Identifiers التالية حدد ما هو صالح وما هو غير صالح عن طريق كتابة Valid أو Not Valid في التعليق قبل الإسم</p>
+                /* Valid */
+                ._user-name {
+                }
+                
+                /* Valid */
+                .-user-name {
+                }
+                
+                /* Not Valid */
+                .-user-name {
+                }
+                
+                /* Not Valid */
+                .1user-name {
+                }
+                
+                /* Not Valid */
+                .@user-name {
+                }
+                
+                /* Not Valid */
+                .user@name {
+                }
+                
+                /* Valid */
+                ._user10name {
+                }
+                
+                /* Valid */
+                .u {
+                }            
+            </pre>
+        </div>
+        <hr>
+        <p><mark>التكليف 06</mark></p>
+        <div>
+            <pre>
+                <p>في أسماء ال Identifiers التالية حدد ما الذي يتبع ال Best Practice عن طريق كتابة Good أو Bad في التعليق قبل الإسم</p>
+                /* Bad */
+                .USERNAME {
+                }
+                
+                /* Good */
+                .UserName {
+                }
+                
+                /* Good */
+                .user-name {
+                }
+                
+                /* Good */
+                .userName {
+                }
+                
+                /* Bad */
+                .usernameprofile {
+                }
+            </pre>
+        </div>
+    </body>
+</html>
