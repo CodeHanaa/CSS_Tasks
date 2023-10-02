@@ -1,0 +1,52 @@
+.najy {
+   font-size: 100px;
+   text-shadow: 3px 2px 0px orangered,6px 3px 0px rgb(0, 122, 244),9px 4px 0px rebeccapurple;
+}
+.one,
+.two,
+.three {
+    font-size: 100px;
+    text-align: center;
+}
+.one {
+    text-transform: uppercase;
+}
+.two {
+    text-transform: capitalize ;
+}
+.three {
+    text-transform: lowercase;
+}
+.bahaa {
+    width: 400px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 20px;    
+}
+.modify-1 {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 100px solid #eee;
+    width: 400px;
+    background-color: #eee;
+}
+.modify-2 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #eee;
+}
+a {
+    display: block;
+    background-color: darkcyan;
+    border-bottom: 15px solid darkslategray;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 80px;
+    padding: 30px 50px;
+    margin: auto;
+}
