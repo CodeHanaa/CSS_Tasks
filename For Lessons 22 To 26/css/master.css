@@ -1,0 +1,92 @@
+/* التكليف 01 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid rgb(230, 80, 10);
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    word-spacing: 2px;
+}
+
+div p {
+       background-color: #68626241;
+       padding: inherit;
+       border: inherit;
+       
+}
+
+.modify-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid teal;
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    width: 400px;
+    margin: 20px auto;
+    word-spacing: 2px;
+}
+
+.modify-1 .modify-2 {
+    background-color: #68626241;
+    padding: inherit;
+    border: inherit;
+}
+/* التكليف 02 */
+.one,
+.two,
+.three {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.one {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.two {
+    font-family: "cairo",sans-serif;
+    font-weight: 700;
+}
+
+.three {
+    font-family: "Jomhuria",sans-serif;
+    font-weight: 400;
+}
+/* التكليف 03 */
+html {
+    font-size: 20px;
+}
+.four,
+.fife,
+.six {
+    text-align: center;
+    line-height: 2px; 
+}
+
+.four {
+    font-size: 2.5rem;
+}
+
+.fife {
+    font-size: 2rem;
+}
+
+.six {
+    font-size: 1.5rem;
+}
