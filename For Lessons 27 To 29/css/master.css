@@ -1,0 +1,68 @@
+/* التكليف 01 */
+/* .parent {
+    /* width:  800px;  =>800px in first 
+    height: 400px;
+   line-height: 50px ;
+    padding: 0%;
+    background-color: #eee;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px auto;
+} */
+.parent {
+    width:  1000px;    /*==>1000px in second */
+    height: 400px;
+    line-height: 50px ;
+    padding: 0%;
+    background-color: #eee;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.parent  div {
+     background-color: #ddd;
+     float: left;
+     padding: 10px 0px;
+     margin: 15px 0px 15px 15px;
+}
+.modify-1 {
+    width: calc(100% - (15px * 2));
+}
+.modify-2 {
+    width: calc(((100% - (15px * 4)) / 3));
+}
+.modify-3 {
+    width: calc(((100% - (15px * 3)) / 2));
+}
+.modify-4 {
+    width: calc(((100% - (15px * 5)) / 4));
+}
+.clear {
+    clear: both;
+}
+/* التكليف 02 */
+.hanon .normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hanon .normal {
+    background-color: #8887879d;
+}
+.one{
+    background-color: rgba(68, 66, 66, 0.1);  
+
+}
+.two {
+    background-color: #7271719d;
+    opacity: 0.1;
+}
+
