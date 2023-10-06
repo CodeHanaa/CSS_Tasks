@@ -1,0 +1,151 @@
+/* التكليف 01 */
+.green,
+.red,
+.blue,
+.black {
+   width:  100px;
+   height:  100px;
+   position: absolute;
+}
+
+ .green {
+    background-color: #009688;
+    left: 25px;
+    top: 25px;
+    z-index: 2;
+ }   
+ .red {
+    background-color: #f44336;
+    left: 30px;
+    top: 30px;
+    z-index: 3;
+ }
+ .blue {
+    background-color:  #03a9f4;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+ }
+ .black {
+    background-color: #333333;
+    left: 20px;
+    top: 25px;
+    z-index: 0;
+ }
+/* التكليف 02 */
+.parent {
+    width:  400px;
+    margin: auto;
+    padding :20px;
+    margin-top: 20px;
+    background-color: #eee;
+    line-height: 40px;
+    color: black;
+    border-top: 5px solid red;
+    border-right: 5px solid #1a9cd8;
+    border-bottom: 5px solid #f44336;
+    border-left: 5px solid #1a9cd8;
+    position: relative;
+}
+span{
+    background-color: #319ef4;
+    position: absolute;
+    padding:5px 15px;
+    color: white;
+}
+.top-left{
+    top:-15%;
+    left:-5%;
+    border-right: 3px solid #f3554a;
+}
+.top-right{
+    top: -15%;
+    right: -5%;
+    border-left:3px solid #f3554a;
+}
+.bottom-left{
+    bottom: -14%;
+    left: -5%;
+    border-right: 3px solid #f3554a;
+}
+.bottom-right{
+    bottom: -14%;
+    right: -5%;
+    border-left:3px solid #f3554a;
+}
+/* التكليف 03 */
+.hanon{
+    width:  400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hanon .doda,
+.hanon .doda1,
+.hanon .doda2 {
+    list-style: none;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #eee;
+}
+.hanon .doda .naji .num1,
+.hanon .doda .naji .nam1,
+.hanon .doda .naji .new1 {
+    background-color: white;
+    padding: 5px;
+    margin: 5px auto;
+    list-style-type: decimal;
+    
+}
+.hanon .doda1 .naji1 .num2,
+.hanon .doda1 .naji1 .nam2,
+.hanon .doda1 .naji1 .new2 {
+    background-color: white;
+    padding: 5px;
+    margin: 5px auto;
+}
+.hanon .doda2 .abd .num3,
+.hanon .doda2 .abd .nam3 {
+    background-color: white;
+    padding: 5px;
+    margin: 5px auto;
+}
+/* التكليف 04 */
+table {
+    border-bottom: 2px solid rgb(19, 131, 134);
+    text-align: center;
+    width:  700px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:  20px auto;
+    line-height: 20px;
+    height: 500px;
+}
+table caption {
+    margin: 20px auto;
+    padding: 20px;
+    font-weight: bold;
+}
+table thead tr th  {
+    background-color: rgb(54, 52, 52);
+    color: white;
+    padding: 10px;
+}
+table tbody tr {
+    background-color: #eee;
+    /* padding: 100px; */
+}
+img {
+    padding: 3px;
+    margin: 3px auto;
+    border: 1px solid #979494;
+    background-color: white;
+}
+#view-button {
+    background-color: #03a9f4;
+    margin-left: 16px;
+    border: 2px solid #eee;
+    color: white;
+}
+#delete-button {
+    background-color: #e91e63; 
+    border: 2px solid #eee;
+    color: white;
+}
