@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 50px);
+}
+
+.parent {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #eee;
+    padding: 20px;
+    margin: 50px auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    text-align: center;
+}
+
+.parent div {
+    background-color: rgba(247, 14, 14, 0.863);
+    color: white;
+    width: calc(94% / 3);
+    height: 50px;
+    padding: 20px;
+    line-height: 12px;
+}
