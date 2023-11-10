@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    counter-reset: div;
+  }
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,400px));
+    grid-template-rows: 35px auto;
+    gap: 10px 10px;
+    position: relative;
+  }
+
+.grid div {
+    background-color: #607d8b;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid div::after {
+    counter-increment: div;
+    content: 'Element' counter(div);
+}
