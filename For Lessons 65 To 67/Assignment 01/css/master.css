@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.rot1,
+.rot2,
+.rot3 {
+    width: 300px;
+    height: 200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.rot1 {
+    background-color: #e91e63;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    left: 360px;
+}
+
+.rot2 {
+    background-color: #03a9f4;
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    left: 355px;
+}
+
+.rot3 {
+    background-color: #ddd;
+    color: #03a9f4;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 357px;
+}
