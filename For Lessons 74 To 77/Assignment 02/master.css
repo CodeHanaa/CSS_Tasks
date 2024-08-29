@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.slip2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #2490ff #2490ff transparent #2490ff;
+    animation-name: spn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+.slip2:hover,
+.slip2:hover:before,
+.slip2:hover:after {
+    animation-play-state: running;
+}
+
+.slip2::before {
+    content: "";
+    position: absolute;
+    width: 152%;
+    height: 143%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #fcb400 #fcb400 transparent #fcb400;
+    top: -15px;
+    left: -16px;
+    animation-name: spn;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+.slip2::after {
+    content: "";
+    position: absolute;
+    width: 219%;
+    height: 197%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: black black transparent black;
+    top: -26px;
+    left: -28px;
+    animation-name: spn;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: paused;
+}
+
+@keyframes spn {
+    0% {
+        transform: rotate(0turn);
+        -webkit-transform: rotate(0turn);
+        -moz-transform: rotate(0turn);
+        -ms-transform: rotate(0turn);
+        -o-transform: rotate(0turn);
+}
+    100% {
+        transform: rotate(1turn);
+        -webkit-transform: rotate(1turn);
+        -moz-transform: rotate(1turn);
+        -ms-transform: rotate(1turn);
+        -o-transform: rotate(1turn);
+    }
+}

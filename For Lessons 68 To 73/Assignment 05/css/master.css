@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.flip {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    transform-style: preserve-3d;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+.flip::before {
+    content: "Front";
+    position: absolute;
+    background-color: #fa3664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flip::after {
+    content: "Back";
+    position: absolute;
+    background-color: #1692fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.flip:hover {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.bo1 {
+    perspective: 600px;
+    position: relative;
+    top: 100px;
+}
+
+.flip1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    transform-style: preserve-3d;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+.flip1::before {
+    content: "Front";
+    position: absolute;
+    background-color: #fa3664;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flip1::after {
+    content: "Back";
+    position: absolute;
+    background-color: #1692fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: rotatex(180deg);
+    -webkit-transform: rotatex(180deg);
+    -moz-transform: rotatex(180deg);
+    -ms-transform: rotatex(180deg);
+    -o-transform: rotatex(180deg);
+}
+
+.flip1:hover {
+    transform: rotatex(180deg);
+    -webkit-transform: rotatex(180deg);
+    -moz-transform: rotatex(180deg);
+    -ms-transform: rotatex(180deg);
+    -o-transform: rotatex(180deg);
+}
