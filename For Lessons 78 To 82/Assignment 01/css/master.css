@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.one {
+    margin: 20px auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.one div.main.red {
+    color: red;
+}
